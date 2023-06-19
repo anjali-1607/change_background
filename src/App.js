@@ -7,7 +7,7 @@ import { Button } from "semantic-ui-react";
 export default function App() {
   const [color, setColor] = useState("blue");
   const change = () => {
-    setColor((document.body.style.backgroundColor = "red"));
+    setColor((document.body.style.backgroundColor = "purple"));
   };
 
   useEffect(() => {
